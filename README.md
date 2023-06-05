@@ -4,44 +4,32 @@ dyrector.io is an open-source container management platform that offers self-ser
 
 **You can find dyrector.io's repository on** [**GitHub**](https://github.com/dyrector-io/dyrectorio)**.**
 
-### **dyrector.io as a platform**
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Quick start</strong></td><td>Give dyrector.io a quick try with this guide.</td><td><a href="quick-start/quick-start.md">quick-start.md</a></td><td><a href=".gitbook/assets/dyrector-io-card-quick-start-gear-icon.png">dyrector-io-card-quick-start-gear-icon.png</a></td></tr><tr><td><strong>Who is dyrector.io for?</strong></td><td>Find out how dyrector.io can help you.</td><td><a href="basics/overview.md">overview.md</a></td><td><a href=".gitbook/assets/dyrector-io-card-who-is-this-for-people-icon.png">dyrector-io-card-who-is-this-for-people-icon.png</a></td></tr><tr><td><strong>Self-managed dyrector.io</strong></td><td>Spark up your own dyrector.io for 100% free.</td><td><a href="self-managed-dyrector.io/quick-start.md">quick-start.md</a></td><td><a href=".gitbook/assets/dyrector-io-card-self-managed-server-icon.png">dyrector-io-card-self-managed-server-icon.png</a></td></tr></tbody></table>
 
-dyrector.io turns your deployments as simple as you want them to be. If you need a CD tool to push your images coming from your CI workflows, you can do that with dyrector.io. In other cases, if you require someone to administer and validate deployments and trigger them in a self-service manner due to regulatory reasons, the platform can help you with that, too.
+### **dyrector.io introduction**
 
-dyrector.io is a platform for:
+#### UI & API for Kubernetes and Docker container management
 
-* **individual engineers,** who'd rather spend time developing their applications instead of deploying them,
-* **early stage startups,** who need Ops but don't have the resources to manage operational overhead,
-* **organizations** in need of DevOps knowledge.
+dyrector.io is a delivery platform that helps you by substituting Docker and Kubernetes command line interactions with abstractions. You're able to configure any OCI compatible containers with a configuration screen, and in a JSON-editor, as well.
 
+You can use the platform by installing its agents on your infrastructure. The agent will communicate with the platform to conduct interactions with containers running on your infra.
 
+#### **Cloud provider & technology agnostic platform**
 
-<figure><img src=".gitbook/assets/dyrectorio-boat-for-shirt.png" alt=""><figcaption><p><strong>dyrector.io delivery boat</strong></p></figcaption></figure>
+**dyrector.io is ready to interact with your already existing infrastructure and clusters right away.** The platform interacts with any cloud & on-premises infrastructure. Deploy images from any registry.
 
-{% hint style="info" %}
-This documentation is in the works along with our product’s development. In case you’ve got feedback regarding the docs, please reach out to us at [hello@dyrector.io](mailto:hello@dyrector.io). **Contributions are always welcome.**
-{% endhint %}
+The platform can be used without moving your services to a brand new infrastructure. To provide quick setup, we don't offer any infrastructure to our users.
 
-**If you want to cut to the chase, go to** [**Tutorials**](broken-reference) **to see how you can execute deployments with dyrector.io.**
+#### Integrations to the most popular tools
 
-### **Why choose dyrector.io**
+Chat notifications on Discord, Slack, and Teams let you and your team know about newly made deployments and versions to increase collaboration.
 
-#### Intuitive UI accelerates deployments in Kubernetes & Docker
+### When to use dyrector.io
 
-dyrector.io leaves room for self-service deployment processes due to its easy-to-use UI. The straightforward flow leads all users through the deployment process from assembling your product or version from your images, setting up its configuration and deploying it to your node.
+✅ You already have a Kubernetes cluster and want to manage it with ease.
 
-Compared to similar products, dyrector.io's use cases aren't restricted to cloud providers. Users can utilize the platform's deployment capabilities with their already existing infrastructure regardless of the way they host their applications.
+✅ Multiple users on your team need to have access to your containers for management.
 
-#### Simplified container & microservices architecture management independent from all cloud providers
+✅ You'd like to configure versions once, without repetition.
 
-dyrector.io reduces administration overhead, since it opens up the possibility for non-specialists to manage deployments on a high level and DevOps engineers to make deep level adjustments. Automatic deployment logs make it easier to understand the versions running on your infrastructure.
-
-#### Configuration management for engineers & non-technical staff
-
-Configuration management capabilities are provided with filter views for Kubernetes, Docker and common variables for quick variable specification. The JSON editor allows DevOps staff to handle configuration variables on their own terms without investigating YAML files.
-
-If you ever decide to leave dyrector.io, you can keep your infrastructure related data by generating a YAML file containing all of your configurations.
-
-### Integrations
-
-dyrector.io supports various registry types, including Docker Hub registries, Docker API V2 compatible ones, GitLab, GitHub, and Google registries.
+✅ Your team needs self-service deployments for QA or sales purposes.
