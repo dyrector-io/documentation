@@ -8,25 +8,25 @@ Rolling versions are similar to versionless project in a way that they come with
 
 **Step 3:** Enter the rolling version's name and specify a changelog.
 
+![](<../../../../.gitbook/assets/dyrector-io-rolling-version-01 (1).png>)
+
 **Step 4:** Click 'Save'. You'll be directed to the board of versions of your versioned project.
 
-**Step 5:** Click 'Images' button that belongs to the version you'd like to assemble.
+![](../../../../.gitbook/assets/dyrector-io-rolling-version-02.png)
 
-![](<../../../../.gitbook/assets/dyrector-io-rolling-version-04 (1).png>)
+**Step 5:** Click 'Images' button in the card that belongs to the version you'd like to assemble.
 
 **Step 6:** Click 'Add image'.
 
-**Step 7:** Select the Registry you want to add images from.
+<figure><img src="../../../../.gitbook/assets/dyrector-io-rolling-version-03.png" alt=""><figcaption></figcaption></figure>
 
-![](../../../../.gitbook/assets/dyrector-io-rolling-version-05.png)
+**Step 7:** Select the Registry you want to add images from.
 
 **Step 8:** Type the image’s name to filter images. Select the image by clicking on the checkbox next to it.
 
-![](../../../../.gitbook/assets/dyrector-io-rolling-version-06.png)
+<figure><img src="../../../../.gitbook/assets/dyrector-io-rolling-version-04.png" alt=""><figcaption></figcaption></figure>
 
 **Step 9:** Click ‘Add’.
-
-<figure><img src="../../../../.gitbook/assets/dyrector-io-rolling-version-07 (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 10:** Pick the ‘Tag’ icon next to the bin icon in the actions column to pick a version of the image you selected in the previous step.
 
@@ -34,6 +34,6 @@ Rolling versions are similar to versionless project in a way that they come with
 Now you can define environment configurations to the selected image. For further adjustments, click on the JSON tab where you can define other variables. Copy and paste it to another image when necessary. Learn more about Configuration management [**here**](../../../features/configuration-management.md).
 {% endhint %}
 
-![](../../../../.gitbook/assets/dyrector-io-rolling-version-08.png)
-
 **Step 11:** Click ‘Add Image’ to add another image. Repeat until you have all the desired images included in your product.
+
+<figure><img src="../../../../.gitbook/assets/dyrector-io-rolling-version-05.png" alt=""><figcaption></figcaption></figure>

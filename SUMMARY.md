@@ -46,7 +46,7 @@
   * [Create a versioned project](docs/tutorials/create-your-product/create-a-complex-product/README.md)
     * [Create a Rolling Version](docs/tutorials/create-your-product/create-a-complex-product/create-a-rolling-product.md)
     * [Create an Incremental Version](docs/tutorials/create-your-product/create-a-complex-product/create-an-incremental-product.md)
-    * [Add a version to your Complex Product](docs/tutorials/create-your-product/create-a-complex-product/add-a-version-to-your-complex-product.md)
+    * [Add a version to your Versioned Project](docs/tutorials/create-your-product/create-a-complex-product/add-a-version-to-your-complex-product.md)
 * [Deploy your Project](docs/tutorials/deploy-your-product.md)
 * [Create Chat Notifications](docs/tutorials/create-chat-notifications.md)
 

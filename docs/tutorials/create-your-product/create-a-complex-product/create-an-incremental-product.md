@@ -10,21 +10,19 @@ Incremental versions are hierarchical in a way that they can have child versions
 
 **Step 3:** Click ‘Save’. You’ll be redirected to the project's version board.
 
-**Step 4:** To add images, click ‘Images’ and ‘Add Image’ on the next view.
-
 <figure><img src="../../../../.gitbook/assets/dyrector-io-incremental-version-02.png" alt=""><figcaption></figcaption></figure>
+
+**Step 4:** To add images, click ‘Images’ and ‘Add Image’ on the next view.
 
 **Step 5:** Select the Registry you want to filter images from.
 
 **Step 6:** Type the image’s name to filter images. Select the image by clicking on the checkbox next to it.
 
-<figure><img src="../../../../.gitbook/assets/dyrector-io-incremental-version-03.png" alt=""><figcaption></figcaption></figure>
-
 **Step 7:** Click ‘Add’.
 
 **Step 8:** Pick the ‘Tag’ icon next to the bin icon under the actions column to pick a version of the image you selected in the previous step.
 
-<figure><img src="../../../../.gitbook/assets/dyrector-io-incremental-version-05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dyrector-io-incremental-version-03.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Now you can define environment configurations to the selected image. For further adjustments, click on the JSON tab where you can define other variables. Copy and paste it to another image when necessary. Learn more about Configuration management [**here**](../../../features/configuration-management.md).
