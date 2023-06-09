@@ -1,6 +1,6 @@
 # LinkAce
 
-[**LinkAce**](https://github.com/Kovah/LinkAce/) **is a self-hosted archive to collect links of your favorite websites. dyrector.io users can quickly set it up on their infrastructure. Template consists of MariaDB (10.7) and LinkAce image with `simple` tag.**&#x20;
+[**LinkAce**](https://github.com/Kovah/LinkAce/) **is a self-hosted archive to collect links of your favorite websites. You can quickly set it up on your infrastructure. Template consists of MariaDB (10.7) and LinkAce image with `simple` tag.**&#x20;
 
 After the Node where you'd like to run LinkAce is [**registered**](../../docs/tutorials/register-your-node.md), you can set it up by following the steps of deployments as documented [**here**](../../docs/tutorials/deploy-your-product.md).
 

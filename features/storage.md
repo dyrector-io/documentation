@@ -13,5 +13,5 @@ Amazon S3 isn’t open-source but a few open-source implementations are listed b
 * Scality.
 
 {% hint style="info" %}
-You can set up the S3 implementations mentioned above with dyrector.io. Find out how to do in the [**Tutorials**](broken-reference) section.
+You can set up the S3 implementations as mentioned above. Find out how to do in the [**Tutorials**](broken-reference) section.
 {% endhint %}

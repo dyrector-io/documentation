@@ -1,14 +1,14 @@
 # Add your Node
 
-Nodes are the environments that'll be the target of your deployments.
+**Nodes are the environments that'll be the target of your deployments.**
 
 {% hint style="warning" %}
-Node setups require admin or sudo privilege. Without that, it's not possible to [**install**](register-your-node.md) dyrector.io's agent on your node in the case of both Docker and Kubernetes.
+Node setups require admin or root privilege. Without that, it's not possible to [**install**](register-your-node.md) dyrector.io's agent on your node in the case of both Docker and Kubernetes.
 
 If you're curious about the install scripts of the agent, you can check them out at the links below:
 
-* [**Docker**](https://github.com/dyrector-io/dyrectorio/blob/develop/web/crux/install-docker.sh.hbr)
-* [**Kubernetes**](https://github.com/dyrector-io/dyrectorio/blob/develop/web/crux/install-k8s.sh.hbr)
+* [**Docker**](https://github.com/dyrector-io/dyrectorio/blob/develop/web/crux/assets/install-script/install-docker.sh.hbr)
+* [**Kubernetes**](https://github.com/dyrector-io/dyrectorio/blob/develop/web/crux/assets/install-script/install-k8s.sh.hbr)
 {% endhint %}
 
 **Step 1:** Open Nodes on the left and click ‘Add’ on top right.
@@ -54,7 +54,7 @@ Traefik's Docker instance is only supported on Linux. Further details about it a
 
 <figure><img src="../../.gitbook/assets/dyrectorio-node-setup-bash.png" alt=""><figcaption></figcaption></figure>
 
-The one-liner will generate a script that’ll set dyrector.io’s agent up on your Node.
+The one-liner will generate a script that’ll set the platform’s agent up on your Node.
 
 **Information and status of your Node will show in the Connection section, so you can see if the setup is successful right away.**
 

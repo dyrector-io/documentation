@@ -1,12 +1,13 @@
 # Create your Project
 
-Projects are the stacks you're going to manage and deploy in dyrector.io.
+**Projects are the deployable units made up of images and their configuration you're going to manage through the platform.**
 
-|                | Versionless Project | Versioned Project   | Versioned Project   |
-| -------------- | ------------------- | ------------------- | ------------------- |
-| **Versioning** | ❌                   | Rolling             | Incremental         |
-| **Rollbacks**  | ❌                   | ❌                   | ✅                   |
-| **Ideal for**  | Testing             | Continuous Delivery | Continuous Delivery |
+|                  | Versioned Project            | Versioned Project                   | Versionless Project              |
+| ---------------- | ---------------------------- | ----------------------------------- | -------------------------------- |
+| **Version Type** | Rolling                      | Incremental                         | ❌                                |
+| **Rollbacks**    | ❌                            | ✅                                   | ❌                                |
+| **History**      | Previous version overwritten | Image and configuration inheritance | ❌                                |
+| **Ideal for**    | Nightly Versions             | Production                          | Testing, Single-container stacks |
 
 The different project types have different deployment capabilities. For more details about the differences, check out the [**Components**](../../../basics/components.md#deployment) section.
 

@@ -2,13 +2,9 @@
 
 ### GitLab CI/CD & GitHub Action
 
-dyrector.io isn’t a CI/CD tool but it covers certain steps of CD and its release management related aspects.
+The platform isn’t a CI/CD tool but it covers certain steps of CD and its release management related aspects.
 
-Both GitLab’s CI/CD and GitHub’s Action tools can be integrated to dyrector.io. Its main benefit is that dyrector.io enables you to manage multi-instance deployments to different environments, and it enables you to manage several different configurations.
-
-This means dyrector.io is the ultimate complementary platform to extend your already existing CI/CD pipeline’s capabilities.
-
-By using dyrector.io, you can bring multiple services and operational practices under the same hood.
+Both GitLab’s CI/CD and GitHub’s Action tools can be integrated. Its main benefit is that the platform enables you to manage multi-instance deployments to different environments, and it enables you to manage several different configurations. You can bring multiple services and operational practices under the same hood.
 
 * **Deployments:** you can integrate the services and pipelines you already use to build your applications, and then deploy them to any desired environment.
 * **Change log generation:** increase the transparency of version management by generating change logs based on commit messages left by your developers.

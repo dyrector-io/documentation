@@ -1,6 +1,6 @@
 # Deploy your Project
 
-Deployment is the key feature of dyrector.io. It's the process of setting up the images on your node.
+Deployment is the key feature of the platform. It's the process of setting up the images on your node.
 
 {% hint style="info" %}
 Deployment workflows are similar for each type and version of projects but there's difference between the capabilities. You can find out more about the differences of deployment capabilities between versionless and versioned projects [**here**](../../basics/components.md#deployment).
@@ -30,4 +30,4 @@ You can see status change for each image on the 2nd picture below.
 
 ### Deployment deletion
 
-Deleting a deployment will only remove the containers from dyrector.io. Infrastructure related data, including volumes and networks, will remain on the node.
+Deleting a deployment will only remove the containers from the platform. Infrastructure related data, including volumes and networks, will remain stored on the node.

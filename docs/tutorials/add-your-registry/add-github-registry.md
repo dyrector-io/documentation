@@ -21,7 +21,7 @@
 * And your organization’s or your user's GitHub name.
 
 {% hint style="danger" %}
-Only classic tokens are supported by dyrector.io. Fine-grained tokens aren't supported yet.
+Only classic tokens are supported. Fine-grained tokens aren't supported yet.
 {% endhint %}
 
 **Step 6:** Click ‘Save’ button on the top right.

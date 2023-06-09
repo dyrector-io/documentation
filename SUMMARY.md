@@ -1,39 +1,18 @@
 # Table of contents
 
-* [dyrector.io documentation](README.md)
-  * [How it works](readme/how-it-works.md)
-
-## Quick start
-
-* [Quick start](quick-start/quick-start.md)
-* [Templates](quick-start/templates/README.md)
-  * [Vaultwarden](quick-start/templates/vaultwarden.md)
-  * [Strapi](quick-start/templates/strapi.md)
-  * [Cal.com](quick-start/templates/cal.com.md)
-  * [WordPress](quick-start/templates/wordpress.md)
-  * [Minecraft Server](quick-start/templates/minecraft-server.md)
-  * [Google Microservices Demo](quick-start/templates/google-microservices-demo.md)
-  * [Self-managed GitLab](quick-start/templates/self-managed-gitlab.md)
-  * [Gitea](quick-start/templates/gitea.md)
-  * [LinkAce](quick-start/templates/linkace.md)
+* [Welcome 👋](README.md)
 
 ## Basics
 
-* [Who is dyrector.io for?](basics/overview.md)
+* [Who is it for?](basics/overview.md)
+* [How it works](basics/how-it-works.md)
 * [Components](basics/components.md)
 * [Use cases](basics/use-cases.md)
-* [Core functionality](basics/core-functionality.md)
 * [API](basics/api.md)
-
-## Self-managed dyrector.io
-
-* [Quick start](self-managed-dyrector.io/quick-start.md)
-* [CLI](self-managed-dyrector.io/cli.md)
-* [Proxies](self-managed-dyrector.io/proxies.md)
 
 ## Tutorials
 
-* [Onboarding](docs/tutorials/onboarding.md)
+* [Getting started](tutorials/getting-started.md)
 * [Add your Node](docs/tutorials/register-your-node.md)
 * [Add your Registry](docs/tutorials/add-your-registry/README.md)
   * [Add V2 Registry](docs/tutorials/add-your-registry/add-v2-registry.md)
@@ -41,6 +20,7 @@
   * [Add GitHub Registry](docs/tutorials/add-your-registry/add-github-registry.md)
   * [Add GitLab Registry](docs/tutorials/add-your-registry/add-gitlab-registry.md)
   * [Add Google Registry](docs/tutorials/add-your-registry/add-google-registry.md)
+  * [Add Unchecked Registry](tutorials/add-your-registry/add-google-registry-1.md)
 * [Create your Project](docs/tutorials/create-your-product/README.md)
   * [Create a versionless project](docs/tutorials/create-your-product/create-a-simple-product.md)
   * [Create a versioned project](docs/tutorials/create-your-product/create-a-complex-product/README.md)
@@ -52,10 +32,27 @@
 
 ## Features
 
+* [Core functionality](features/core-functionality.md)
+* [Templates](features/templates/README.md)
+  * [Vaultwarden](features/templates/vaultwarden.md)
+  * [Strapi](features/templates/strapi.md)
+  * [Cal.com](features/templates/cal.com.md)
+  * [WordPress](features/templates/wordpress.md)
+  * [Minecraft Server](features/templates/minecraft-server.md)
+  * [Google Microservices Demo](features/templates/google-microservices-demo.md)
+  * [Self-managed GitLab](features/templates/self-managed-gitlab.md)
+  * [Gitea](features/templates/gitea.md)
+  * [LinkAce](features/templates/linkace.md)
 * [Configuration management](docs/features/configuration-management.md)
 * [Monitoring](docs/features/monitoring.md)
 * [Audit log](docs/features/audit-log.md)
 * [Storage](features/storage.md)
+
+## Self-managed
+
+* [Quick start](self-managed/quick-start.md)
+* [CLI](self-managed/cli.md)
+* [Proxies](self-managed/proxies.md)
 
 ## Learn more
 
@@ -64,6 +61,5 @@
   * [Features in progress](docs/learn-more/roadmap/features-in-progress.md)
   * [Integrations in progress](docs/learn-more/roadmap/integrations-in-progress.md)
 * [Pricing](docs/learn-more/pricing.md)
-* [FAQ](learn-more/faq/README.md)
-  * [Portainer vs. dyrector.io](learn-more/faq/portainer-vs.-dyrector.io.md)
+* [FAQ](learn-more/faq.md)
 * [Community](docs/learn-more/community.md)

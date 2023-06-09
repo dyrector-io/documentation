@@ -1,6 +1,6 @@
 # Add Docker Hub Registry
 
-Docker Hub is a public image library. You can add registries from Docker Hub in dyrector.io with the following steps.
+Docker Hub is a public image library. You can add registries from Docker Hub with the following steps.
 
 **Step 1:** Open Registries on the left and click ‘Add’ on the top right.
 

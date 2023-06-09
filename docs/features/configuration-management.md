@@ -1,12 +1,12 @@
 # Configuration management
 
-Configurations can be all over the place without a single source of truth when left unmanaged for long periods of time. The more configurations you need to deal with, the more likely you’ll lose track of them. dyrector.io can be used as single source of truth for all of your configurations, while being able to add, remove or modify configurations directly or via the JSON editor.
+Configurations can be all over the place without a single source of truth when left unmanaged for long periods of time. The more configurations you need to deal with, the more likely you’ll lose track of them. The platform can be used as single source of truth for all of your configurations, while being able to add, remove or modify configurations directly or via the JSON editor.
 
 Every configuration you specify will remain stored after any modification or deletion to ensure you won’t have to spend time again defining already specified configurations.
 
 ### How is it better than using a Git repository?
 
-Git repositories containing the configurations of your microservice architecture can be all over the place because one repo won’t cover all the configurations for all the images & components in your architecture. dyrector.io substitutes Git repos by bringing every variable that belong to a specific Product in one place.
+Git repositories containing the configurations of your microservice architecture can be all over the place because one repo won’t cover all the configurations for all the images & components in your architecture. The platform substitutes Git repos by bringing every variable that belong to a specific Product in one place.
 
 #### Best practices
 
@@ -25,12 +25,6 @@ You can also use sub filters to hide irrelevant variables to your configs. Below
 * **Common**
 
 <figure><img src="../../.gitbook/assets/dyrectorio-config-management-common-variables.png" alt=""><figcaption></figcaption></figure>
-
-**Keep files toggle**
-
-If turned on, deleted files are preserved until overwritten.
-
-Turn it off to keep files on the target and source identical. Turning it on preserves older files.
 
 * **Kubernetes**
 

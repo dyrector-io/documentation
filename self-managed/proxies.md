@@ -1,24 +1,20 @@
 # Proxies
 
+Proxies provide secure connection when you set up the platform for self-managed use. But they can be useful for any other uses, when you need a firewall, or you'd like to hide your location, and so on.
+
+**When you set up the platform, we highly recommend you to use a proxy, such as Traefik or NGINX, to secure your network.**
+
 ### Traefik
 
-Traefik is used by default, as seen in the following docker-compose files.
-
-**Production docker-compose:**
-
-* [**dyrectorio/docker-compose.yaml**](https://github.com/dyrector-io/dyrectorio/blob/develop/docker-compose.yaml)
-
-**Demo-only docker-compose:**
-
-* [**dyrectorio/docker-compose.http-only.yaml**](https://github.com/dyrector-io/dyrectorio/blob/develop/docker-compose.http-only.yaml)
+Traefik is used by default, as seen in the [**docker-compose**](https://github.com/dyrector-io/dyrectorio/blob/develop/docker-compose.yaml) designed for production use.
 
 ### NGINX
 
 By default we recommend using Traefik but if you already use NGINX then here's an example.
 
-When you configure NGINX for dyrector.io, keep in mind the following:
+When you configure NGINX for the platform, keep in mind the following:
 
-Traffic needs to be directed to 3 containers: kratos, crux-ui, and crux. The 5 locations defined are below:
+Inbound traffic needs to be directed towards 3 containers: kratos, crux-ui, and crux. The 5 locations defined are below:
 
 * /crux-ui
 * /kratos (needs to be stripped)

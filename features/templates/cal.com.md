@@ -1,10 +1,10 @@
 # Cal.com
 
-**Cal.com is a meeting scheduler application. Users can set up its self-hosted stack with dyrector.io.**
+**Cal.com is a meeting scheduler application. Users can set up its self-hosted stack.**
 
 ### **Why use dyrector.io to set up Cal.com**
 
-Cal.com is awesome. We like it and use it everyday, people like it, too. Chances are, if you're here, you like it, as well. Even better that they provide self-hosted usage. But as some users pointed out on [**Hacker News**](https://news.ycombinator.com/item?id=34507672), self-hosting Cal.com is a challenging process. So, we turned it into a template you can set up easily via the easy-to-use and straightforward UI of dyrector.io.
+Cal.com is awesome. We like it and use it everyday, people like it, too. Chances are, if you're here, you like it, as well. Even better that they provide self-hosted usage. But as some users pointed out on [**Hacker News**](https://news.ycombinator.com/item?id=34507672), self-hosting Cal.com is a challenging process. So, we turned it into a template for easy setup.
 
 ### **Set up Cal.com**
 

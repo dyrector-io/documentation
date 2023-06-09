@@ -374,7 +374,7 @@ Notifications are chat notifications in Slack, Discord, and Teams. They send an 
 
 ### Templates
 
-Templates are preset applications that can be turned into a product right away. They can be deployed with minimal configuration. More details about templates [**here**](../quick-start/templates/).
+Templates are preset applications that can be turned into a product right away. They can be deployed with minimal configuration. More details about templates [**here**](../features/templates/).
 
 {% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/templates" method="get" %}
 [dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)

@@ -1,6 +1,6 @@
 # Strapi
 
-[**Strapi**](https://strapi.io) **is a CMF that allows developers to build APIs in Node.js. It's mainly used to build content-driven applications or websites. dyrector.io users can quickly set it up on their infrastructure. Both images of Strapi are available with `latest` tag.**
+[**Strapi**](https://strapi.io) **is a CMF that allows developers to build APIs in Node.js. It's mainly used to build content-driven applications or websites. You can quickly set it up on your infrastructure. Both images of Strapi are available with `latest` tag.**
 
 After the Node where you'd like to run Strapi is [**registered**](../../docs/tutorials/register-your-node.md), you can setup Strapi by following the steps of deployments as documented [**here**](../../docs/tutorials/deploy-your-product.md).
 

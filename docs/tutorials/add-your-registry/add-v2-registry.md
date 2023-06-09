@@ -1,6 +1,6 @@
 # Add V2 Registry
 
-V2 Registries are Docker Registry HTTP API V2 compatible. Both private and public registries are supported by dyrector.io.
+V2 Registries are Docker Registry HTTP API V2 compatible. Both private and public registries are supported.
 
 ### Add a private registry
 
@@ -18,7 +18,7 @@ V2 Registries are Docker Registry HTTP API V2 compatible. Both private and publi
 
 **Step 4:** In the corresponding fields, enter:
 
-* URL of your registry without the /v2 postfix,
+* URL of your registry without the /v2 suffix,
 * username, and
 * the token or password which you use to access it.
 
@@ -36,6 +36,6 @@ V2 Registries are Docker Registry HTTP API V2 compatible. Both private and publi
 
 **Step 3:** Select V2 Registry type and switch the toggle under the URL field to ‘Public’.
 
-**Step 4:** Enter the URL of your registry without the /v2 postfix.
+**Step 4:** Enter the URL of your registry without the /v2 suffix.
 
 **Step 5:** Click ‘Save’ button on the top right.

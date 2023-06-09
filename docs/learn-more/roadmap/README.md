@@ -1,8 +1,10 @@
 # Roadmap
 
-While dyrector.io's core functionality is ready for users, other features and integrations are still in progress. Find out what's in the works.
+Find out what's in the works on [**GitHub**](https://github.com/orgs/dyrector-io/projects/2), or check out coming features and integrations we have in mind at the links below.
 
 * [**Features in progress**](features-in-progress.md)
 * [**Integrations in progress**](integrations-in-progress.md)
 
-**Check out current** [**roadmap**](https://github.com/orgs/dyrector-io/projects/2) **on GitHub.**
+{% hint style="success" %}
+Send a feature request to [**hello@dyrector.io**](mailto:hello@dyrector.io) or drop a line on our [**Discord server**](https://discord.gg/pZWbd4fxga).
+{% endhint %}

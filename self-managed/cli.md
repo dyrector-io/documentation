@@ -8,7 +8,7 @@ description: >-
 
 ### **Dependencies**
 
-Before using the dyrector.io CLI, make sure you have the following dependencies installed on your local machine:
+Before using the CLI, make sure you have the following dependencies installed on your local machine:
 
 * Docker installed on your system but [**Podman**](https://podman.io/) works, too.
 * Go (1.20 or higher) to run the `go install`.
@@ -21,9 +21,9 @@ You also have to get the aardvark-dns plugin for the same reason.
 If you use rootless containers, set your `DOCKER_HOST` environmental variable correctly, because if it's missing, Docker will assume it's `/var/run/docker.sock` and you can get misleading errors from it.
 {% endhint %}
 
-### Go install
+### Option #1: Go install
 
-**Step 1:** Execute `go install github.com/dyrector-io/dyrectorio/golang/cmd/dyo@develop`
+**Step 1:** Execute `go install github.com/dyrector-io/dyrectorio/golang/cmd/dyo@main`
 
 **Step 2:** Execute `dyo up`
 
@@ -37,15 +37,15 @@ If you use rootless containers, set your `DOCKER_HOST` environmental variable co
 
 **Step 7:** Happy deploying! 🎬
 
-### Run CLI from codebase
+### Option #2: Run CLI from source
 
 **Step 1:** By using command line – posix shells, Git Bash or PowerShell –, pull dyrector.io's [**GitHub repository**](https://github.com/dyrector-io/dyrectorio) by executing `git pull`, if you don't already have the repository on your local machine you have to clone the repository by executing `git clone https://github.com/dyrector-io/dyrectorio.git`.
 
 **Step 2:** Open the project folder, and execute `make up` – alias to `go run ./golang/cmd/dyo up` – and wait until you get back the command prompt. It should take a few minutes the first time running, as it will pull a few docker images.
 
-**Step 3:** Enter `localhost:8000` in your browser's address bar. **You're ready to use dyrector.io.**
+**Step 3:** Enter `localhost:8000` in your browser's address bar. **You're ready to use the platform.**
 
-dyrector.io's command-line interface (CLI) lets you run a complete dyrector.io development environment locally with the following services: UI Service (crux-ui), Backend Service (crux), PostgreSQL databases, Authentication, Migrations, and SMTP mock mail server. The CLI also runs the migration services. The default container names are listed below:
+The command-line interface (CLI) lets you run a complete the platform's development environment locally with the following services: UI Service (crux-ui), Backend Service (crux), PostgreSQL databases, Authentication, Migrations, and SMTP mock mail server. The CLI also runs the migration services. The default container names are listed below:
 
 * dyo-stable\_traefik
 * dyo-stable\_crux-postgres
@@ -60,7 +60,7 @@ dyrector.io's command-line interface (CLI) lets you run a complete dyrector.io d
 The dyo-stable prefix can be changed in the [**settings.yaml**](cli.md#configuration) file of the application.
 
 {% hint style="info" %}
-When you contribute to [**dyrector.io**](https://github.com/dyrector-io/dyrectorio), you can turn off crux and crux-ui with the global options listed below or overriding the values in the settings file.
+When you contribute to the [**project on GitHub**](https://github.com/dyrector-io/dyrectorio), you can turn off crux and crux-ui with the global options listed below or overriding the values in the settings file.
 {% endhint %}
 
 ### CLI commands
@@ -99,7 +99,7 @@ Running the stack again without stopping it will result in containers stopped, r
 
 ### Configuration
 
-The CLI generates a `settings.yaml` file containing the default configurations if the program doesn't find a configuration on the given path, or a default path if there isn't. Default paths is depending on your OS, you can find these on:
+The CLI generates a `settings.yaml` file containing the default configurations if the program doesn't find a configuration on the given path, or a default path if there isn't. Default path is dependant on your OS, you can find these on:
 
 * Linux: `$XDG_CONFIG_HOME/dyo-cli/settings.yaml` where the `$XDG_CONFIG_HOME` usually resolving to `$HOME/.config`.
 * Mac OSX: `$HOME/Library/Application Support/dyo-cli/settings.yaml`.

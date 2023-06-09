@@ -1,6 +1,6 @@
 # Google Microservices Demo
 
-[**Google Microservices Demo**](https://github.com/GoogleCloudPlatform/microservices-demo) **is used to how to build and deploy microservices-based applications using Google Cloud Provider (GCP). Google Microservices Demo allows users to demonstrate use of technologies like Kubernetes/GKE, Istio, Stackdriver, gRPC and OpenCensus. dyrector.io users can quickly set Google Microservices Demo up on their infrastructure.**
+[**Google Microservices Demo**](https://github.com/GoogleCloudPlatform/microservices-demo) **is used to how to build and deploy microservices-based applications using Google Cloud Provider (GCP). Google Microservices Demo allows users to demonstrate use of technologies like Kubernetes/GKE, Istio, Stackdriver, gRPC and OpenCensus. Users can quickly set Google Microservices Demo up on your infrastructure.**
 
 {% hint style="info" %}
 All images are available with `0.4.1` tag in the template.

@@ -1,28 +1,34 @@
 # Use cases
 
+### Self-service container management
+
+The platform abstracts away interactions with containers. You can deploy images, start, restart, and delete containers with the platform. Logs and container inspection allows you to dig deeper into a container's operation when needed.
+
+### Self-hosted stacks for indie hackers
+
+If you're passionate about self-hosting the tools you use every day, you can add all of your environments to the platform as nodes, where you can manage all the containers you run. Instead of setting up dashboards and adding each service individually, you can interact with all of your ecosystem through one GUI.
+
+{% hint style="success" %}
+Pro tip: you can [**self-manage dyrector.io**](broken-reference), too.
+{% endhint %}
+
 ### Multi-Instance Deployments
 
 The key purpose of multi-instance deployments is to avoid repetitive tasks when the same stack needs to be deployed to dozens or hundreds of deployment targets. After configuring the stack once, you're able to select all the nodes where you'd like to set it up.
 
-Below you can see a flowchart that illustrates how you can deploy the same stack to multiple businesses at the same time.
+Below you can see a flowchart that illustrates how you can deploy the same stack to multiple environments at the same time.
 
 ![](../docs/.gitbook/assets/dyrector-io-multi-instance-deployments-dark.png)
 
-Another scenario is when a 3rd-party redistributes the application your organization develops. In the flowchart below you can see how this process differs from direct distribution as described above.
+Another scenario is when a 3rd-party redistributes the business application your organization develops. In the flowchart below you can see how this process differs from direct distribution as described above.
 
 ![](<../docs/.gitbook/assets/dyrector-io-multi-instance-deployments-outsourcing-dark (1).png>)
 
-> **In progress:** Bundled configurations enable your team to assign templatized configurations through the whole process. This significantly reduces the risk of specifying incorrect configurations.
-
-### Docker & Kubernetes utilization without specialists
-
-dyrector.io accelerates Docker and Kubernetes adoption by providing abstractions to these technologies. The platform covers container management capabilities in both container orchestrators, including starting, restarting and stopping containers, as well as configuring images into deployable versions.
-
-It allows engineering teams and organizations to only involve DevOps engineers and other specialists when their presence is really needed.
+> **In progress:** Bundled configurations enable your team to assign templatized configurations through the whole process.
 
 ### Instant test environments
 
-QA, PMs and salespeople can spark up your stack instantly on their own by deploying the stack to their local machine or a demo environment as a project on dyrector.io.
+QA, PMs and salespeople can spark up your stack instantly on their own by deploying the stack to their local machine or a demo environment as a project.
 
 ### **And more, including**
 

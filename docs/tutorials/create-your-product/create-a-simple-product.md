@@ -1,6 +1,6 @@
 # Create a versionless project
 
-Versionless projects have only one abstracted-away version and cannot be rolled back. These are mostly useful for testing purposes.
+Versionless projects have only one abstracted-away version and cannot be rolled back. These are mostly useful for testing purposes or single-container stacks.
 
 **Step 1:** On the Project tab, click ‘Add’ on top right.
 

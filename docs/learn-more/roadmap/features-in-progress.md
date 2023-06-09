@@ -12,11 +12,11 @@ For this reason we're working on a feature that allows users to manage bundled c
 
 ### Changelog generation
 
-Unawareness of how one version of your image is different from another is a risky practice. To avoid this, dyrector.io helps you create changelogs based on your commit messages with Conventional Commits service. Make sure developers working on your product leave meaningful commit messages, so everyone working on your project understands the details of each version.
+Unawareness of how one version of your image is different from another is a risky practice. To avoid this, the platform helps you create changelogs based on your commit messages with Conventional Commits service. Make sure developers working on your application leave meaningful commit messages, so everyone working on your project understands the details of each version.
 
 Changelog generation can reduce knowledge gap between stakeholders, like developers who work every day on the project and outsiders who occasionally deal with the project, like decision-makers.
 
-Besides the changelogs, you can also leave a comment related to Nodes and Products on dyrector.io which your teammates can see on dyrector.io’s UI.
+Besides the changelogs, you can also leave a comment related to nodes and projects on the platform which your teammates can see on the platform's UI.
 
 #### Use cases
 
@@ -24,7 +24,7 @@ Besides the changelogs, you can also leave a comment related to Nodes and Produc
 
 ### Secrets management
 
-You can use HashiCorp’s Vault Integration for secrets management to keep your passwords and encryption keys secure. This means dyrector.io can support your DevSecOps practices in full effect. Your secrets will be securely stored by HashiCorp, which you can access through dyrector.io.
+You can use HashiCorp’s Vault Integration for secrets management to keep your passwords and encryption keys secure. This means the platform compliments your DevSecOps practices. Your secrets will be securely stored by HashiCorp, which you can access through the platform.
 
 HashiCorp Vault is the de facto tool of security, used by most organisations. We encourage our users to use it, as well.
 
@@ -33,11 +33,11 @@ HashiCorp Vault is the de facto tool of security, used by most organisations. We
 * **General Secret Storage:** store your secrets, including sensitive configurations, tokens, API keys. Query them by using `vault read`.
 * **Employee Credential Storage:** instead of using sticky notes around your screen, store and distribute credentials in one place. Vault has an audit log mechanism, which lets you know who had access to one of the stored secrets. This simplifies monitoring which keys have been rolled or not.
 * **API Key Generation for Scripts:** generate temporary access keys for the duration of a script. The keys only exist for that duration and are logged by HashiCorp.
-* **Data Encryption:** aligning with the purpose of dyrector.io, HashiCorp’s Vault enables developers to focus on developing. The Vault takes care of data encryption and decryption, instead of the developers and other technical staff on the team.
+* **Data Encryption:** aligning with the purpose of the platform, HashiCorp’s Vault enables developers to focus on developing. The Vault takes care of data encryption and decryption, instead of the developers and other technical staff on the team.
 
 ### Role Based Access Control - RBAC
 
-Role based access control allows you to manage the privileges of other users. This is an extra measure of security to your infrastructure and data. Using RBAC helps you to avoid situations when someone has unauthorised access to your dyrector.io account to execute harmful actions.
+Role based access control allows you to manage the privileges of other users. This is an extra measure of security to your infrastructure and data. Using RBAC helps you to avoid situations when someone has unauthorised access to your account to execute harmful actions.
 
 #### Use cases
 
@@ -45,8 +45,8 @@ Role based access control allows you to manage the privileges of other users. Th
 
 ### ChatOps
 
-dyrector.io's functionality implemented into ChatOps commands.
+The platform's functionality implemented into ChatOps commands.
 
 ### YAML export
 
-In case a user decides to stop using dyrector.io, they can generate YAML files to easily setup their services using another platform without using data.
+In case you decide to stop using the platform, you can generate YAML files to easily setup their services using another platform without using data.
