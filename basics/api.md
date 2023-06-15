@@ -28,95 +28,95 @@ Registries are 3rd party registries where the images of versions are located. Le
 [dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
 {% endswagger %}
 
-### Products
+### Projects
 
-There are two kinds of products in dyrector.io: Simple and Complex. Simple products make up one deployable unit without versioning, while Complex products come with multiple rolling or incremental versions. More details [**here**](../docs/tutorials/create-your-product/).
+There are two kinds of projects in dyrector.io: versionless and versioned. Versionless projects make up one deployable unit without versioning, while versioned projects come with multiple rolling or incremental versions. More details [**here**](../docs/tutorials/create-your-product/).
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products" method="get" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects" method="get" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products" method="post" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects" method="post" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}" method="get" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}" method="get" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}" method="put" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}" method="put" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}" method="delete" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}" method="delete" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
 ### Versions
 
-Versions belong to products. While Simple Products are technically versionless, they act as a rolling version of a Complex Product.
+Versions belong to versioned projects. Versionless projects act similar to a rolling version of a versioned project.
 
-The purpose of versions is to separate different variations of your product. They can be either rolling or incremental. One Complex Product can have multiple versions of both types. More details about rolling and incremental versions [**here**](../docs/tutorials/create-your-product/create-a-complex-product/).
+The purpose of versions is to separate different variations of your project. They can be either rolling or incremental. One versionless project can have multiple versions of both types. More details about rolling and incremental versions [**here**](../docs/tutorials/create-your-product/create-a-complex-product/).
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions" method="get" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions" method="get" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions" method="post" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions" method="post" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions/{versionId}" method="get" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions/{versionId}" method="get" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions/{versionId}" method="put" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions/{versionId}" method="put" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions/{versionId}" method="delete" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions/{versionId}" method="delete" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions/{versionId}/default" method="put" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions/{versionId}/default" method="put" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions/{versionId}/increase" method="post" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions/{versionId}/increase" method="post" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
 ### Version/Images
 
-Images make up a Complex Product's version, or a Simple Product.
+Images make up a versioned project's version, or a versionless project.
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions/{versionId}/images" method="get" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions/{versionId}/images" method="get" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions/{versionId}/images" method="post" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions/{versionId}/images" method="post" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions/{versionId}/images/{imageId}" method="get" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions/{versionId}/images/{imageId}" method="get" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions/{versionId}/images/{imageId}" method="delete" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions/{versionId}/images/{imageId}" method="delete" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions/{versionId}/images/{imageId}" method="patch" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions/{versionId}/images/{imageId}" method="patch" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/products/{productId}/versions/{versionId}/images/order" method="put" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/projects/{projectId}/versions/{versionId}/images/order" method="put" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
 ### Teams
 
-Teams are the shared entity of multiple users. The purpose of teams is to separate users, nodes and products based on their needs within an organization. Team owners can assign roles. More details about teams [**here**](components.md#team).
+Teams are the shared entity of multiple users. The purpose of teams is to separate users, nodes and projects based on their needs within an organization. Team owners can assign roles. More details about teams [**here**](components.md#team).
 
 {% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/teams" method="get" %}
 [dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
@@ -176,7 +176,7 @@ Users/Me cover endpoints related to your user profile.
 
 ### Deployments
 
-Deployments are the process that gets the installation of your versions or Simple Products done on the node of your choice. More details about deployments [**here**](../docs/tutorials/deploy-your-product.md).
+Deployments are the process that gets the installation of your versions or versionless projects done on the node of your choice. More details about deployments [**here**](../docs/tutorials/deploy-your-product.md).
 
 {% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/deployments" method="get" %}
 [dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
@@ -374,14 +374,14 @@ Notifications are chat notifications in Slack, Discord, and Teams. They send an 
 
 ### Templates
 
-Templates are preset applications that can be turned into a product right away. They can be deployed with minimal configuration. More details about templates [**here**](../features/templates/).
+Templates are preset applications that can be turned into a project right away. They can be deployed with minimal configuration. More details about templates [**here**](../features/templates/).
 
 {% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/templates" method="get" %}
 [dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/templates" method="post" %}
-[dyrectorio-api-0.4.0-02.json](../.gitbook/assets/dyrectorio-api-0.4.0-02.json)
+{% swagger src="../.gitbook/assets/dyrector-io-api-0-5-0-01.json" path="/api/templates" method="post" %}
+[dyrector-io-api-0-5-0-01.json](../.gitbook/assets/dyrector-io-api-0-5-0-01.json)
 {% endswagger %}
 
 {% swagger src="../.gitbook/assets/dyrectorio-api-0.4.0-02.json" path="/api/templates/{templateId}/image" method="get" %}
