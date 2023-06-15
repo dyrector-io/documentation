@@ -146,8 +146,8 @@ options:
     mailSlurperSMTPPort: 1025
     mailSlurperWebPort: 4436
     mailSlurperWebPort2: 4437
-    FROM_NAME: dyrector.io Platform
-    FROM_EMAIL: noreply@dyrectorio.com
+    mailFromName: dyrector.io Platform
+    mailFromEmail: noreply@dyrectorio.com
 ```
 {% endcode %}
 

@@ -1,5 +1,13 @@
 # Changelog
 
+### 0.5.1
+
+The release includes a fix for minor versioning in the CI process and a change in the release script to incorporate the version of Golang components. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases).
+
+### 0.5.0
+
+Added onboarding checklist to the dashboard to guide users through deployment process. Automated multiarch builds to dyrector.io agent, including ARM. Renamed products to projects and their types: simple to versionless, complex to versioned. Improved audit logs with agent connectivity data. Rolling projects are now copyable. Fixes and improvements. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.5.0).
+
 ### 0.4.2
 
 Fixes and improvements to secrets, private V2 registry addition to the platform, and container view UI improvements. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.4.2).
