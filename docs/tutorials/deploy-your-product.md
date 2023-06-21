@@ -1,6 +1,10 @@
-# Deploy your Project
+---
+description: >-
+  Deployment is the key feature of the platform. It's the process of setting up
+  the images on your node.
+---
 
-Deployment is the key feature of the platform. It's the process of setting up the images on your node.
+# Deploy your Project
 
 {% hint style="info" %}
 Deployment workflows are similar for each type and version of projects but there's difference between the capabilities. You can find out more about the differences of deployment capabilities between versionless and versioned projects [**here**](../../basics/components.md#deployment).
@@ -26,7 +30,7 @@ You can see status change for each image on the 2nd picture below.
 
 ![](../../.gitbook/assets/dyrector-io-deployment-04.png)
 
-![](../../.gitbook/assets/dyrector-io-deployment-06.png)
+![](../../.gitbook/assets/dyrector-io-deployment-05.png)
 
 ### Deployment deletion
 

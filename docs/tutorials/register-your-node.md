@@ -19,7 +19,7 @@ If you're curious about the install scripts of the agent, you can check them out
 Tip: You can write a description so others on your team can understand what’s the purpose of this node.
 {% endhint %}
 
-![](../../.gitbook/assets/dyrector-io-node-setup-01.png)
+![](../../.gitbook/assets/dyrectorio-node-setup-01.png)
 
 **Step 3:** Click ‘Save’ and select the type of technology your node uses. You can select
 
@@ -44,7 +44,7 @@ Users are able to opt-in to install Traefik, as well. In that case they need to 
 Traefik's Docker instance is only supported on Linux. Further details about it at the official Docker [**documentation**](https://docs.docker.com/network/host/).
 {% endhint %}
 
-**Step 4:** Depending on your node's OS, select whether you'd like to generate a shell or a powershell script. Shell scripts are supported on Linux Nodes, powershell scripts are designed to be used with Windows nodes.
+**Step 4:** Depending on your node's OS, select whether you'd like to generate a shell or a powershell script. Shell scripts are supported on Linux nodes, powershell scripts are designed to be used with Windows nodes.
 
 **Step 5:** After picking the technology and the script's type, click the ‘Generate script’ button to generate a one-liner script.
 
@@ -54,10 +54,10 @@ Traefik's Docker instance is only supported on Linux. Further details about it a
 
 <figure><img src="../../.gitbook/assets/dyrectorio-node-setup-bash.png" alt=""><figcaption></figcaption></figure>
 
-The one-liner will generate a script that’ll set the platform’s agent up on your Node.
+The one-liner will generate a script that’ll set the platform’s agent up on your node.
 
-**Information and status of your Node will show in the Connection section, so you can see if the setup is successful right away.**
+**Information and status of your node will show on the node's page, so you can see if the setup is successful right away.**
 
-<figure><img src="../../.gitbook/assets/dyrector-io-node-setup-05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dyrectorio-node-setup-03.png" alt=""><figcaption></figcaption></figure>
 
 **Now you're ready to setup your product and one step closer deploy your application.**
