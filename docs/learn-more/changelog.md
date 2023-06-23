@@ -1,5 +1,17 @@
 # Changelog
 
+### 0.5.4
+
+Added deployment tokens to trigger CD pipelines. Versionless projects can be converted to versioned. You can select what images you'd like to deploy. Improved registry workflow. Added reload when Kratos isn't available. Small UI improvements. Minor fixes and updates. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.5.4).
+
+### 0.5.3
+
+Added crane to signer image and add additional cache restore. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.5.3).
+
+### 0.5.2
+
+Implemented principle of least privilege RBAC when managing a Kubernetes cluster through the platform. Improvements to node setup flow, container management, dagent registry auth. Minor fixes and improvements. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.5.2).
+
 ### 0.5.1
 
 The release includes a fix for minor versioning in the CI process and a change in the release script to incorporate the version of Golang components. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases).
