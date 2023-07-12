@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.6.0
+
+Local images can be added as unchecked registry. Fixed a bug that prevented users from generating a CD token. Minor fixes. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.6.0).
+
 ### 0.5.5
 
 Made continuous deployment token improvements: name can be added to tokens for better usability, CD events show up in audit log, CD token has never expire option. Social sign-in is now available: GitHub, GitLab, Google, Azure. Fixed node edit bug. Made improvements to agent, onboarding checklist. Minor fixes and updates. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.5.5).
