@@ -10,6 +10,8 @@ Made continuous deployment token improvements: name can be added to tokens for b
 
 ### 0.5.4
 
+### 0.5.4
+
 Added deployment tokens to trigger CD pipelines. Versionless projects can be converted to versioned. You can select what images you'd like to deploy. Improved registry workflow. Added reload when Kratos isn't available. Small UI improvements. Minor fixes and updates. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.5.4).
 
 ### 0.5.3

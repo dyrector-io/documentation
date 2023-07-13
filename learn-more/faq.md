@@ -2,7 +2,7 @@
 
 ### Can I use dyrector.io without containerization?
 
-Unfortunately we don't support applications that don't un in a containerized environment.
+Unfortunately we don't support applications that don't run in a containerized environment.
 
 ### Is dyrector.io Kubernetes specified?
 
@@ -18,11 +18,11 @@ Yes.
 
 ### Is it a CI/CD tool?
 
-No, but it can be used to trigger CI/CD pipelines. Such capabilities are in our long-term plans.
+The platform provides [**CD capabilities**](../features/continuous-delivery.md), but it doesn't offer CI, as of now. Such capabilities are in our long-term plans.
 
 ### Is it only for businesses?
 
-dyrector.io is for anyone who works with containerized applications. That means organizations, or independent developers.
+dyrector.io is for anyone who works with containerized applications. That means organizations, or independent developers can gain advantage of the platform's functions.
 
 ### Will the tool remain completely free in the future?
 

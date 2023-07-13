@@ -2,7 +2,7 @@
 
 ### What is dyrector.io?
 
-It's an open-source container management platform offering self-service deployment and configuration management capabilities on a UI and via API to any cloud or on-premises infrastructure.
+It's an open-source continuous delivery platform offering self-service deployment and configuration management capabilities via a GUI and API to any cloud or on-premises infrastructure.
 
 **You can find the project's repository on** [**GitHub**](https://github.com/dyrector-io/dyrectorio)**.**
 

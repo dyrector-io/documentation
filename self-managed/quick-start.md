@@ -22,6 +22,12 @@ Use [**docker-compose.http-only.yaml**](https://github.com/dyrector-io/dyrectori
 
 Use [**CLI**](cli.md).
 
+### System Recommendations
+
+* 1 CPUs
+* 8 GB RAM
+* Docker or Podman installed
+
 #### Why it's worth it
 
 **Self-managed dyrector.io is free, unlimited, forever.**

@@ -43,6 +43,7 @@
   * [Self-managed GitLab](features/templates/self-managed-gitlab.md)
   * [Gitea](features/templates/gitea.md)
   * [LinkAce](features/templates/linkace.md)
+* [Continuous Delivery](features/continuous-delivery.md)
 * [Configuration management](docs/features/configuration-management.md)
 * [Monitoring](docs/features/monitoring.md)
 * [Audit log](docs/features/audit-log.md)
