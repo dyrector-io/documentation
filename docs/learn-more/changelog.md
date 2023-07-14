@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.6.1
+
+Implemented fixes to dagent related issues, deployment token migration. UI improvements. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.6.1).
+
 ### 0.6.0
 
 Local images can be added as unchecked registry. Fixed a bug that prevented users from generating a CD token. Minor fixes. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.6.0).
