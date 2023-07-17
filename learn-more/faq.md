@@ -18,7 +18,7 @@ Yes.
 
 ### Is it a CI/CD tool?
 
-The platform provides [**CD capabilities**](../features/continuous-delivery.md), but it doesn't offer CI, as of now. Such capabilities are in our long-term plans.
+The platform provides [**CD capabilities**](../features/continuous-deployment.md), but it doesn't offer CI, as of now. Such capabilities are in our long-term plans.
 
 ### Is it only for businesses?
 
