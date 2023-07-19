@@ -6,11 +6,11 @@ Unfortunately we don't support applications that don't run in a containerized en
 
 ### Is dyrector.io Kubernetes specified?
 
-No. It can be configured with any environment, cloud or on-premises, Docker or Kubernetes. Read how you can [**set up Nodes**](../docs/tutorials/register-your-node.md).
+No. It can be configured with any environment, cloud or on-premises, Docker or Kubernetes. Read how you can [**set up Nodes**](../../docs/tutorials/register-your-node.md).
 
 ### **Can I use the self-managed platform with NGINX?**
 
-Yes. Find the NGINX example [**here**](../self-managed/proxies.md#nginx).
+Yes. Find the NGINX example [**here**](../../self-managed/proxies.md#nginx).
 
 ### Can I deploy my images to a cluster orchestrated by Kind?
 
@@ -18,7 +18,7 @@ Yes.
 
 ### Is it a CI/CD tool?
 
-The platform provides [**CD capabilities**](../features/continuous-deployment.md), but it doesn't offer CI, as of now. Such capabilities are in our long-term plans.
+The platform provides [**CD capabilities**](../../features/continuous-deployment.md), but it doesn't offer CI, as of now. Such capabilities are in our long-term plans.
 
 ### Is it only for businesses?
 

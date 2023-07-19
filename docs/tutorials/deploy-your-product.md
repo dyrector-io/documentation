@@ -35,3 +35,7 @@ You can see status change for each image on the 2nd picture below.
 ### Deployment deletion
 
 Deleting a deployment will only remove the containers from the platform. Infrastructure related data, including volumes and networks, will remain stored on the node.
+
+### Troubleshooting
+
+When you can't deploy a version or a project because node status turns outdated, you should navigate to your node's edit page and update the agent by clicking the _Update_ button.

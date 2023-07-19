@@ -62,5 +62,6 @@
   * [Features in progress](docs/learn-more/roadmap/features-in-progress.md)
   * [Integrations in progress](docs/learn-more/roadmap/integrations-in-progress.md)
 * [Pricing](docs/learn-more/pricing.md)
-* [FAQ](learn-more/faq.md)
+* [FAQ](learn-more/faq/README.md)
+  * [Portainer vs. dyrector.io](learn-more/faq/portainer-vs.-dyrector.io.md)
 * [Community](docs/learn-more/community.md)

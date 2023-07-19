@@ -2,7 +2,13 @@
 description: Function is still in the works, anomalies might occur.
 ---
 
-# Continuous Delivery
+# Continuous Deployment
+
+### How it works?
+
+After the CI/CD pipeline builds and pushes the image to a container registry, the pipeline triggers the deployment on the platform. The platform automatically signals to the agent that it should pull and start the image with the tag that already exists on the node.
+
+<figure><img src="../.gitbook/assets/dyrector-io-continuous-deployment-workflow.png" alt=""><figcaption></figcaption></figure>
 
 ### Generate CD token
 
