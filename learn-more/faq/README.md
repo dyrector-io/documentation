@@ -30,7 +30,7 @@ Self-managed use will stay 100% free and unrestricted. But most of our team work
 
 ### What was the motivation behind making this tool?
 
-We needed a solution for self-service release management capabilities for an entire different project. We couldn't find one that fit exactly our needs, so we made our own platform.
+We needed a solution for self-service release management capabilities for an entirely different project. We couldn't find one that fit exactly our needs, so we made our own platform.
 
 ### I have a feature request. Can I send you a message about it?
 
