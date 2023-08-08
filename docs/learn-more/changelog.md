@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.7.0
+
+Added team slug to API endpoints. Implemented node check before deletion. Self-managed dyrector.io improvements: added HEALTCHECK directives to self-managed dyrector.io images, upgraded ory/kratos to 1.0 in dyrector.io stack. dagent improvements: host rule removed when no domain is given, unix socket based healthcheck. Configuration screen improvements: renamed ingress to routing in container configuration to simplify domain specification in config editor, swapped internal and external port inputs, port validation fixes. Made improvements to teams. Other fixes and improvements. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.7.0).
+
 ### 0.6.1
 
 Implemented fixes to dagent related issues, deployment token migration. UI improvements. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.6.1).
