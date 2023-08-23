@@ -77,6 +77,15 @@ Use cases:
 * Proxies: Traefik, NGINX, etc.
 * Databases: Postgres, MySQL, etc.
 
+{% hint style="info" %}
+**Protected deployments**
+
+There are protected deployments that prevent you from overwriting your deployments from another project. This is a helpful measure when you manage dozens or hundreds of environments, and a misplaced click can hurt your users by an outage.
+
+* **Rolling versions:** You can't deploy it if a protected deployment exists with the same prefix on the node.
+* **Incremental versions:** You can't deploy it if a protected deployment exists of a different version with the same prefix on the node.
+{% endhint %}
+
 ### Audit log
 
 Audit logs collect team activity. It lists executed actions, the users who initiated them and the time of when the actions happened.
