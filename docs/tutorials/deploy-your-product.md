@@ -20,7 +20,7 @@ Deployment workflows are similar for each type and version of projects but there
 
 ![](../../.gitbook/assets/dyrector-io-deployment-02.png)
 
-**Step 4:** The images of the project will be listed. By clicking on the gear icon, you are able to define and adjust configuration variables. Learn more about Configuration management [**here**](../features/configuration-management.md).
+**Step 4:** The images of the project will be listed. By clicking on the gear icon, you are able to define and adjust configuration variables. Learn more about Configuration management [**here**](../../features/configuration-management/).
 
 ![](../../.gitbook/assets/dyrector-io-deployment-03.png)
 

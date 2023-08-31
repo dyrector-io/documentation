@@ -25,7 +25,7 @@ Incremental versions are hierarchical in a way that they can have child versions
 <figure><img src="../../../../.gitbook/assets/dyrector-io-incremental-version-03.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Now you can define environment configurations to the selected image. For further adjustments, click on the JSON tab where you can define other variables. Copy and paste it to another image when necessary. Learn more about Configuration management [**here**](../../../features/configuration-management.md).
+Now you can define environment configurations to the selected image. For further adjustments, click on the JSON tab where you can define other variables. Copy and paste it to another image when necessary. Learn more about Configuration management [**here**](../../../../features/configuration-management/).
 {% endhint %}
 
 **Step 9:** Click ‘Add Image’ to add another image. Repeat until you have all the desired images included in your product.

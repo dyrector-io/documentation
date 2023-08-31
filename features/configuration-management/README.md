@@ -16,7 +16,7 @@ Git repositories containing the configurations of your microservice architecture
 
 ### Configuration customization
 
-You're able to define configurations for both images of a [**Project**](../tutorials/create-your-product/) and [**Deployments**](../tutorials/deploy-your-product.md). Variables that belong to images can be overwritten by deployment variables. Below you can see how you're able to filter variables in the configuration management screen.
+You're able to define configurations for both images of a [**Project**](../../docs/tutorials/create-your-product/) and [**Deployments**](../../docs/tutorials/deploy-your-product.md). Variables that belong to images can be overwritten by deployment variables. Below you can see how you're able to filter variables in the configuration management screen.
 
 ![](<../../.gitbook/assets/config filters.jpg>)
 

@@ -33,7 +33,7 @@ Versionless projects have only one abstracted-away version and cannot be rolled 
 **Step 9:** Click on the ‘Tag’ icon under the actions column left to the bin icon. This will allow you to select a version of the image you picked in the previous step.
 
 {% hint style="warning" %}
-You can define environment configurations to the selected image by clicking on the gear icon on the right. For further adjustments, click on the JSON tab where you can define other variables. Copy and paste it to another image when necessary. Learn more about Configuration management [**here**](../../features/configuration-management.md).
+You can define environment configurations to the selected image by clicking on the gear icon on the right. For further adjustments, click on the JSON tab where you can define other variables. Copy and paste it to another image when necessary. Learn more about Configuration management [**here**](../../../features/configuration-management/).
 {% endhint %}
 
 ![](../../../.gitbook/assets/dyrector-io-versionless-project-05.png)

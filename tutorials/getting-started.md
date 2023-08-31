@@ -17,5 +17,5 @@ Having access to a target environment (Docker or Kubernetes) is a requirement. M
 4. [**Add a registry**](../docs/tutorials/add-your-registry/) to the platform. Docker Hub is available by default. Bypass this step and step 5 by saving one of the [**Templates**](../features/templates/) as a project.
 5. [**Create a project**](../docs/tutorials/create-your-product/).
 6. [**Add a deployment**](../docs/tutorials/deploy-your-product.md) to your project.
-7. [**Configure**](../docs/features/configuration-management.md) the images if needed.
+7. [**Configure**](../features/configuration-management/) the images if needed.
 8. Deploy. 🎬
