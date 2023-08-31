@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.8.0
+
+Implemented two new capabilities: configuration bundles and protected deployments. [**Configuration bundles**](../../features/configuration-management/configuration-bundle.md) are configuration templates you're can apply to other stacks you manage with the platform. [**Protected deployments**](../tutorials/deploy-your-product.md) prevent overwriting certain stacks on an infrastructure. Self-managed dyrector.io stack now pulls the latest image when a new version is available. Made several improvements to the UI of the platform: added deployment creation card, table sorting, and images are listed now on the page of a registry. We turned image and instance configuration settings more distinct from each other. Improved sign up and team validation workflow. Added [**MLflow**](https://github.com/mlflow/mlflow) template. Minor fixes and improvements. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.8.0).
+
 ### 0.7.0
 
 Added team slug to API endpoints. Implemented node check before deletion. Self-managed dyrector.io improvements: added HEALTCHECK directives to self-managed dyrector.io images, upgraded ory/kratos to 1.0 in dyrector.io stack. dagent improvements: host rule removed when no domain is given, unix socket based healthcheck. Configuration screen improvements: renamed ingress to routing in container configuration to simplify domain specification in config editor, swapped internal and external port inputs, port validation fixes. Made improvements to teams. Other fixes and improvements. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.7.0).
