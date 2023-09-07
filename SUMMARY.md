@@ -41,6 +41,7 @@
   * [Minecraft Server](features/templates/minecraft-server.md)
   * [Google Microservices Demo](features/templates/google-microservices-demo.md)
   * [Self-managed GitLab](features/templates/self-managed-gitlab.md)
+  * [MLflow](features/templates/mlflow.md)
   * [Gitea](features/templates/gitea.md)
   * [LinkAce](features/templates/linkace.md)
 * [Continuous Deployment](features/continuous-deployment.md)

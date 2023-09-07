@@ -21,6 +21,7 @@ Give the platform a try by deploying one of the templates.
 * [**LinkAce**](linkace.md)
 * [**Gitea**](https://gitea.io/en-us/)
 * [**Minecraft Server**](https://hub.docker.com/r/itzg/minecraft-server)
+* [**MLflow**](mlflow.md)
 
 {% hint style="info" %}
 Reach out to us at [**hello@dyrector.io**](mailto:hello@dyrector.io), or on [**Discord**](https://discord.gg/pZWbd4fxga) if you'd like to request a new template.
