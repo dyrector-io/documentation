@@ -20,6 +20,10 @@ Yes.
 
 The platform provides [**CD capabilities**](../../features/continuous-deployment.md), but it doesn't offer CI, as of now. Such capabilities are in our long-term plans.
 
+### Does the platform manage routing?
+
+Unfortunately routing isn't managed by the platform itself. When you'd like to access your node or a deployed stack through a domain, you'll need to configure routing on your own.
+
 ### Is it only for businesses?
 
 dyrector.io is for anyone who works with containerized applications. That means organizations, or independent developers can gain advantage of the platform's functions.

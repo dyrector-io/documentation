@@ -28,6 +28,18 @@ Use [**CLI**](cli.md).
 * 8 GB RAM
 * Docker or Podman installed
 
+{% hint style="info" %}
+**Disabling Sign Up**
+
+We don't have an option to disable signup, but you can restart the Kratos container with the following variables in the docker-compose:
+
+`SELFSERVICE_FLOWS_REGISTRATION_ENABLED=false`
+
+It should disable the registration flow and the platform will throw an error on the registration page.
+
+More details in [**Kratos documentation**](https://www.ory.sh/docs/kratos/reference/configuration).
+{% endhint %}
+
 #### Why it's worth it
 
 **Self-managed dyrector.io is free, unlimited, forever.**
