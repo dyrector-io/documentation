@@ -56,6 +56,7 @@
 * [Quick start](self-managed/quick-start.md)
 * [CLI](self-managed/cli.md)
 * [Proxies](self-managed/proxies.md)
+* [Environment variables](self-managed/environment-variables.md)
 
 ## Learn more
 
