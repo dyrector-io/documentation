@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.8.1
+
+Reworked agent connection handling to offer a more secure and stable user experience for node management. Added category labels to the platform's containers for better usability. Stack's Go toolchain is upgraded, deploymentStrategy is now utilized, and port routing is explicit. Implemented a fix for port range exposion. Minor fixes and improvements. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.8.1).
+
 ### 0.8.0
 
 Implemented two new capabilities: configuration bundles and protected deployments. [**Configuration bundles**](../../features/configuration-management/configuration-bundle.md) are configuration templates you can apply to other stacks you manage with the platform. [**Protected deployments**](../tutorials/deploy-your-product.md) prevent overwriting certain stacks on an infrastructure. Self-managed dyrector.io stack now pulls the latest image when a new version is available. Made several improvements to the UI of the platform: added deployment creation card, table sorting, and images are listed now on the page of a registry. We turned image and instance configuration settings more distinct from each other. Improved sign up and team validation workflow. Added [**MLflow**](https://github.com/mlflow/mlflow) template. Minor fixes and improvements. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.8.0).
