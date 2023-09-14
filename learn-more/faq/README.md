@@ -12,6 +12,10 @@ No. It can be configured with any environment, cloud or on-premises, Docker or K
 
 Yes. Find the NGINX example [**here**](../../self-managed/proxies.md#nginx).
 
+### Can I use the platform without a profile and teams?
+
+Unfortunately no, but there are settings you can use to disable Kratos. More details [**here**](https://docs.dyrector.io/self-managed/quick-start).
+
 ### Can I deploy my images to a cluster orchestrated by Kind?
 
 Yes.
