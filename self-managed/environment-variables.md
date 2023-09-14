@@ -2,17 +2,18 @@
 
 ### dyrectorio/.env.example
 
-<pre class="language-shell"><code class="lang-shell">## Docker settings
+```shell
+## Docker settings
 
 # Traefik requires this file to be able to route the requests to the containers
 DOCKER_SOCKET=/var/run/docker.sock
 
-## Domain settings
+## General
 
 # Tag for images. It's stable by default
 DYO_VERSION=stable
-# Required for Traefik's certification resolution. It should be your
-# domain where dyrector.io will be available
+# Required for Traefik's certification resolution
+# It should be your domain where dyrector.io will be available
 DOMAIN=example.com
 # Your server's timezone
 TIMEZONE=UTC
@@ -37,7 +38,7 @@ LOG_LEVEL=debug
 
 # This value is the password to crux's database
 CRUX_POSTGRES_PASSWORD=Random_Generated_String
-# This value is the password to kratos's database
+# This value is the password to Kratos' database
 KRATOS_POSTGRES_PASSWORD=Random_Generated_String
 
 ## External URL of the site https://example.com(:port if not 443)
@@ -46,8 +47,8 @@ KRATOS_POSTGRES_PASSWORD=Random_Generated_String
 # self-managed dyrector.io will be available
 EXTERNAL_URL=https://example.com
 
-<strong>## Cookie/JWT secrets
-</strong>
+## Cookie/JWT secrets
+
 # Secret to sign JWTs.
 CRUX_SECRET=Random_Generated_String
 # Secret to sign Kratos cookies
@@ -61,23 +62,23 @@ KRATOS_SECRET=Random_Generated_String
 # The protocol can be SMTP or SMTPS
 # Example: protocol://smtp_user:smtp_password@mailserver_ip_or_domain:port
 SMTP_URI=smtps://username:password@mailserver.example.com:465
-<strong># E-mail address for dyrector.io invitation links,
-</strong><strong># password resets and others
-</strong>FROM_EMAIL=from@example.com
+# E-mail address for dyrector.io invitation links,
+# password resets and others
+FROM_EMAIL=from@example.com
 # E-mail sender name for dyrector.io invitation links,
 # password resets and others
 FROM_NAME=dyrector.io
 
 ## ReCAPTCHA secrets
 
-# In case you don't want to use ReCAPTCHA set DISABLE_RECAPTCHA to true.
-# Highly recommended to set DISABLE_RECAPTCHA to false
+# In case you don't want to use ReCAPTCHA set DISABLE_RECAPTCHA to true
+# Highly recommended to keep the default value, which is `false`
 DISABLE_RECAPTCHA=false
 # Create ReCAPTCHA V2 credentials in the ReCAPTCHA admin console
 # It is recommended to use the inivisble type
 RECAPTCHA_SECRET_KEY=Recaptcha_Secret_Key
 RECAPTCHA_SITE_KEY=Recaptcha_Site_Key
-</code></pre>
+```
 
 ### dyrectorio/web/crux/.env.example
 
@@ -196,11 +197,9 @@ DEBUG_UPDATE_USE_CONTAINERS=true
 DEFAULT_REGISTRY=index.docker.io
 
 # Crane specific options
-# Under obsoletion
-CRANE_GEN_TCP_INGRESS_MAP=
 # Put 'true' to use in-cluster auth
-CRANE_IN_CLUSTER=true
-# Kube
+CRANE_IN_CLUSTER=false
+# The duration amount that for a kubernetes API request to complete
 DEFAULT_KUBE_TIMEOUT=2m
 # Field manager name
 FIELD_MANAGER_NAME=crane-dyrector-io
@@ -215,7 +214,6 @@ TEST_TIMEOUT=15s
 # For injecting SecretPrivateKey
 SECRET_NAME=dyrectorio-secret
 SECRET_NAMESPACE=dyrectorio
-CRANE_IN_CLUSTER=false
 ```
 
 ### dyrectorio/golang/cmd/dagent.env.example
@@ -250,18 +248,18 @@ GRPC_KEEPALIVE=60s
 # Path of 'docker.sock' or other local/remote
 # address where we can communicate with docker
 HOST_DOCKER_SOCK_PATH=/var/run/docker.sock
-HOST_MOUNT_PATH=/srv/dagent
 # Containers mount path default
 INTERNAL_MOUNT_PATH=/srv/dagent
-# Loglines to skip.
+# Loglines to skip if not defined on the request
 LOG_DEFAULT_SKIP=0
-# Loglines to take.
+# Loglines to take
 LOG_DEFAULT_TAKE=100
 MIN_DOCKER_VERSION=20.10
 # E-mail address to use for dynamic certificate requests
 TRAEFIK_ACME_MAIL=
 TRAEFIK_ENABLED=false
-# Loglevel for Traefik. Set to "DEBUG" to access Traefik dashboard
+# Loglevel for Traefik
+# Set to "DEBUG" to access Traefik dashboard
 TRAEFIK_LOG_LEVEL=
 # Whether to enable Traefik TLS or not
 TRAEFIK_TLS=false
