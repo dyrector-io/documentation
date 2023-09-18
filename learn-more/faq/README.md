@@ -20,6 +20,10 @@ Unfortunately no, but there are settings you can use to disable Kratos. More det
 
 Yes.
 
+### Can I schedule database backups with dyrector.io?
+
+Unfortunately there's no such capability within the platform now, but creating a similar functionality is in our plans.
+
 ### Is it a CI/CD tool?
 
 The platform provides [**CD capabilities**](../../features/continuous-deployment.md), but it doesn't offer CI, as of now. Such capabilities are in our long-term plans.
