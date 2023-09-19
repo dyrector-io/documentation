@@ -32,6 +32,15 @@ You can see status change for each image on the 2nd picture below.
 
 ![](../../.gitbook/assets/dyrector-io-deployment-05.png)
 
+{% hint style="info" %}
+**Protected deployments**
+
+There are protected deployments that prevent you from overwriting your deployments from another project. This is a helpful measure when you manage dozens or hundreds of environments, and a misplaced click can hurt your users by an outage.
+
+* **Rolling versions:** You can't deploy it if a protected deployment exists with the same prefix on the node.
+* **Incremental versions:** You can't deploy it if a protected deployment exists of a different version with the same prefix on the node.
+{% endhint %}
+
 ### Deployment deletion
 
 Deleting a deployment will only remove the containers from the platform. Infrastructure related data, including volumes and networks, will remain stored on the node.
