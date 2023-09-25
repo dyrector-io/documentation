@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.8.2
+
+Improved yup validation on the UI of the platform. Agent improvements: added `updating` status to agent, update button is disabled when there's no update available, fixed an agent update issue when the agent stuck at an older version. Deployments are listed on the node detail page. Fixed a deployment issue when secrets are copied to a different node's deployment. Other fixes and improvements. More details about this release on [**GitHub**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.8.2).
+
 ### 0.8.1
 
 Reworked agent connection handling to offer a more secure and stable user experience for node management. Added category labels to the platform's containers for better usability. Stack's Go toolchain is upgraded, deploymentStrategy is now utilized, and port routing is explicit. Implemented a fix for port range exposion. Minor fixes and improvements. More details about this release [**here**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.8.1).
