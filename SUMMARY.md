@@ -46,6 +46,7 @@
   * [LinkAce](features/templates/linkace.md)
 * [Continuous Deployment](features/continuous-deployment.md)
 * [Configuration management](features/configuration-management/README.md)
+  * [Container configuration](features/configuration-management/container-configuration.md)
   * [Configuration bundle](features/configuration-management/configuration-bundle.md)
 * [Monitoring](docs/features/monitoring.md)
 * [Audit log](docs/features/audit-log.md)

@@ -12,15 +12,13 @@ Git repositories containing the configurations of your microservice architecture
 
 * **Think ahead:** designing is the first step towards efficient and secure configuration management. Go through your organization’s structure, consider privileges and access points. This step is crucial for more efficient configuration management.
 * **Configuration roll back:** if it turns out the new configuration is faulty, you can roll back the last functioning ones.
-* **In progress – Bundled configurations:** instead of specifying the same configurations one by one to each component, you can apply variables to multiple components with one click by bundling them up.
+* **Bundled configurations:** instead of specifying the same configurations one by one to each component, you can apply variables to multiple components with one click by bundling them up.
 
 ### Configuration customization
 
-You're able to define configurations for both images of a [**Project**](../../docs/tutorials/create-your-product/) and [**Deployments**](../../docs/tutorials/deploy-your-product.md). Variables that belong to images can be overwritten by deployment variables. Below you can see how you're able to filter variables in the configuration management screen.
+You're able to define configurations for both images of a [**Project**](../../docs/tutorials/create-your-product/) and [**Deployments**](../../docs/tutorials/deploy-your-product.md). Variables that belong to images can be overwritten by deployment variables. You can also use sub filters to hide irrelevant variables to your configs. Below you can see all the variables for each filter – common, Kubernetes and Docker.
 
 ![](<../../.gitbook/assets/config filters.jpg>)
-
-You can also use sub filters to hide irrelevant variables to your configs. Below you can see all the variables for each filter – common, Kubernetes and Docker.
 
 * **Common**
 

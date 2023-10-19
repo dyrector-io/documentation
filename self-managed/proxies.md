@@ -21,6 +21,7 @@ Inbound traffic needs to be directed towards 3 containers: kratos, crux-ui, and 
 * Locations routed to crux-ui:
   * /api/auth
   * /api/status
+* Locations routed to crux:
   * /api
 
 #### Example NGINX config with default ports:
