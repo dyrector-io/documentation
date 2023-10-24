@@ -1,5 +1,17 @@
 # Changelog
 
+### 0.9.0
+
+Container settings (docker inspect) are now available in the platform. Updated deployment process screen with a progress bar. Container config fields are node type based now. Various fixes and updates: ory/kratos identity listing, unnecessary websocket error toasts, audit event filtering, key-value input error messages. Other fixes and improvements. Thanks to our **Hacktoberfest** contributors:
+
+* PapePathe
+* pedaars
+* GuptaPratik02
+* harshsinghcs
+* akash47angadi
+
+More details about this release on [**GitHub**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.9.0).
+
 ### 0.8.2
 
 Improved yup validation on the UI of the platform. Agent improvements: added `updating` status to agent, update button is disabled when there's no update available, fixed an agent update issue when the agent stuck at an older version. Deployments are listed on the node detail page. Fixed a deployment issue when secrets are copied to a different node's deployment. Other fixes and improvements. More details about this release on [**GitHub**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.8.2).
