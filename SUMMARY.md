@@ -29,6 +29,7 @@
     * [Add a version to your Versioned Project](docs/tutorials/create-your-product/create-a-complex-product/add-a-version-to-your-complex-product.md)
 * [Deploy your Project](docs/tutorials/deploy-your-product.md)
 * [Create Chat Notifications](docs/tutorials/create-chat-notifications.md)
+* [Inject Files to a Container](tutorials/inject-files-to-a-container.md)
 
 ## Features
 

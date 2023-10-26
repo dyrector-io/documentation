@@ -1,19 +1,23 @@
 # Storage
 
-File injection to containers is possible with the Storage function. It's S3 compatible, as of now only Azure Blob Storage isn't supported.
+File injection to containers is possible with the Storage function. It's S3 API compatible, as of now only Azure Blob Storage isn't supported.
+
+{% hint style="warning" %}
+Storage capabilities don't cover configuration backup storage. It's sole purpose is to offer a way for [**file injection**](../tutorials/inject-files-to-a-container.md).
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/dyrector-io-storages.png" alt=""><figcaption></figcaption></figure>
 
-**Amazon S3** is a scalable and highly available object storage service. We decided to go with S3 as it’s one of the most popular solutions that offer interoperability with a fair number of open-source projects. They offer a bunch of functions as a flat structure file storage, including versioning, different types of access control, and so on.
+We decided to go with S3 API compatible storages as it’s one of the most popular technologies that offer interoperability with a fair number of open-source projects. They represent a bunch of functions as flat structure file storages, including versioning, different types of access control, and so on.
 
-One example of S3 use cases is to upload the object via a REST endpoint and the object will be available through a simple URL.
+One example of S3 API use cases is to upload the object via a REST endpoint and the object will be available through a simple URL.
 
-Amazon S3 isn’t open-source but a few open-source implementations are listed below:
+Amazon's S3 solution isn’t open-source but a few S3 API compatible open-source implementations are listed below:
 
 * MinIO,
 * OpenIO,
 * Scality.
 
 {% hint style="info" %}
-You can set up the S3 implementations as mentioned above. Find out how to do in the [**Tutorials**](broken-reference) section.
+You can set up the S3 implementations mentioned above as Docker containers. Find out how in the [**Tutorials**](broken-reference) section.
 {% endhint %}
