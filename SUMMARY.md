@@ -63,7 +63,7 @@
 ## Learn more
 
 * [Changelog](docs/learn-more/changelog.md)
-* [Software Quality Assurance (SQA)](learn-more/software-quality-assurance-sqa.md)
+* [Quality Assurance (QA)](learn-more/quality-assurance-qa.md)
 * [Roadmap](docs/learn-more/roadmap/README.md)
   * [Features in progress](docs/learn-more/roadmap/features-in-progress.md)
   * [Integrations in progress](docs/learn-more/roadmap/integrations-in-progress.md)
