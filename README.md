@@ -8,6 +8,10 @@ It's an open-source continuous delivery platform offering self-service deploymen
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Getting started</strong></td><td>Give the platform a quick try with this guide.</td><td><a href="tutorials/getting-started.md">getting-started.md</a></td><td><a href=".gitbook/assets/dyrector-io-card-quick-start-gear-icon.png">dyrector-io-card-quick-start-gear-icon.png</a></td></tr><tr><td><strong>Self-managed guide</strong></td><td>Spark up your self-managed platform for 100% free.</td><td><a href="self-managed/quick-start.md">quick-start.md</a></td><td><a href=".gitbook/assets/dyrector-io-card-self-managed-server-icon.png">dyrector-io-card-self-managed-server-icon.png</a></td></tr><tr><td><strong>Who is it for?</strong></td><td>Find out how it can help you.</td><td><a href="basics/overview.md">overview.md</a></td><td><a href=".gitbook/assets/dyrector-io-card-who-is-this-for-people-icon.png">dyrector-io-card-who-is-this-for-people-icon.png</a></td></tr></tbody></table>
 
+### Demo (2 mins)
+
+{% embed url="https://www.youtube.com/watch?v=mAIf0nA_8Sw" %}
+
 ### When to use the platform
 
 * You already have a Kubernetes cluster and want to manage it with ease.
