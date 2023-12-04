@@ -1,5 +1,13 @@
 # Changelog
 
+### 0.10.0
+
+Introduced node connection improvements: node kick option is added, fixed an issue with updated agents getting kicked, and added an agent connection mechanism which will attempt connection with the stored token first, then the environment token if the first attempt fails. Delivered a fix to agents occasionally crashing when a container is deleted. Fixed deployment logs and container events logs overwriting each other. Added Rocket.Chat and Mattermost notification integrations. Added working directory as a container option. Integrated PostHog for quality assurance purposes (more details about it [**here**](https://docs.dyrector.io/learn-more/quality-assurance-qa)) - tracking can be disabled. Private Docker Hub registries are now supported. Added healthchecks to CLI upon `up` command. Added show icon feature to relevant pages. Minor fixes and improvements.
+
+Shouts to **chandhuDev** for his contribution in this release.
+
+More details about this release on [**GitHub**](https://github.com/dyrector-io/dyrectorio/releases/tag/0.10.0).
+
 ### 0.9.0
 
 Container settings (docker inspect) are now available in the platform. Updated deployment process screen with a progress bar. Container config fields are node type based now. Various fixes and updates: ory/kratos identity listing, unnecessary websocket error toasts, audit event filtering, key-value input error messages. Other fixes and improvements. Thanks to our **Hacktoberfest** contributors:
