@@ -136,6 +136,9 @@ DISABLE_RECAPTCHA=true
 # Required only when ReCAPTCHA is enabled
 RECAPTCHA_SECRET_KEY=<recaptcha_secret_key>
 
+# Using this number to determine the quantity of logs being returned from the Docker container.
+DEFAULT_CONTAINER_LOG_TAIL=100
+
 # For overriding the node DNS result order
 # regardless of the NODE_ENV value
 # It may be necessary for running the e2e tests,
