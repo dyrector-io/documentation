@@ -12,6 +12,12 @@ No. It can be configured with any environment, cloud or on-premises, Docker or K
 
 Yes. Find the NGINX example [**here**](../../self-managed/proxies.md#nginx).
 
+### **What is the difference between Image and Container configuration?**
+
+**Short:** Generic configuration => Image, specific configuration => Container config, configuration is inherited from Image configuration.
+
+Parameters that are generic and context independent should be defined on the Image level. Other, context dependent information, like an environment variable PUBLIC\_URL="https://example.com" should be defined on the Deployment's level. During deployment there is a one-way merge using these configurations with Container configuration having the higher priority. &#x20;
+
 ### Can I use the platform without a profile and teams?
 
 Unfortunately no, but there are settings you can use to disable Kratos. More details [**here**](https://docs.dyrector.io/self-managed/quick-start).
