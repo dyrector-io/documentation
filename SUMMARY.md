@@ -59,6 +59,7 @@
 * [CLI](self-managed/cli.md)
 * [Proxies](self-managed/proxies.md)
 * [Environment variables](self-managed/environment-variables.md)
+* [Self-signed certificates](self-managed/self-signed-certificates.md)
 
 ## Learn more
 
